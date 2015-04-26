@@ -4,7 +4,7 @@
 The script is able to backup a whole system (either single host or multiple).
 
 Both systems (the one that you are going to backup and the one that you running this script on)
-should have rsync installed. 
+should have rsync installed (you should also exchange ssh keys with the server).
 
 The script automatically deletes the backups that are older than 10 days.
 Backups are a regular directory hierarchy from /
